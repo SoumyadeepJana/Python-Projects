@@ -1,6 +1,7 @@
 #This script downloads movies from oceanofmovies.ws/
 #This program is only for educational purposes.
 #It downloads movies at 4 AM when the net speed is great in my dorm. 
+#This program is not futureProof(may not work in the future) if the HTML markup of the host site changes.
 
 #AUTHOR-Soumyadeep Jana
 
