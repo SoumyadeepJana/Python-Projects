@@ -35,7 +35,7 @@ class GUI():
 
         while True:
 
-            if datetime.datetime.now().hour >= 16 and datetime.datetime.now().minute >= 0:
+            if datetime.datetime.now().hour >= 14 and datetime.datetime.now().minute >= 0:
 
                 movie = self.movieTitle.get()
                 movie = movie.title()
@@ -50,7 +50,7 @@ class GUI():
                 input.send_keys(movie)
                 input.send_keys(Keys.ENTER)
                 try:
-                    link = browser.find_element_by_link_text(movie+" Full Movie Download Free 720p")
+                    link = browser.find_element_by_link_text(movie+" Full Movie Download Free 720p BluRay")
                     link.click()
                     downloadLink = browser.find_element_by_xpath('//input[@alt="Download Movie"]')
                     downloadLink.click()
