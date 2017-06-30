@@ -1,3 +1,7 @@
+#This script downloads movies from oceanofmovies.ws
+#This program is only for educational purposes.
+#It downloads movies at 4 AM when the net speed is great in my dorm. 
+
 from tkinter import *
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -33,8 +37,6 @@ class GUI():
 
             if datetime.datetime.now().hour >= 16 and datetime.datetime.now().minute >= 0:
 
-               
-
                 movie = self.movieTitle.get()
                 movie = movie.title()
                 try:
@@ -63,9 +65,6 @@ class GUI():
                     self.statusLabel["text"] = "Movie will be downloaded in a while"
                     
 
-
-
-        
 
 
 GUI()
