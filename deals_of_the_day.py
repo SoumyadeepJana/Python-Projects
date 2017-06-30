@@ -1,3 +1,9 @@
+#This program is solely meant for educational purposes.
+#This program fetches the deals of the day from flipkart.com and opens them in new tabs in your default browser.
+#The browser might crash sometimes as this is fully automated and a many tabs are opened at once.
+
+#AUTHOR-Soumyadeep Jana
+
 import bs4,requests,webbrowser
 
 print("Getting Deals of the day")

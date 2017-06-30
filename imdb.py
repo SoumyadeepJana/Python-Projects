@@ -1,6 +1,8 @@
 #This program is meant for educational purposes only.
 #This program scraps the 250 odd images of top rated movies of TV shows based on user selection from IMDB's website
-#and creates a collage of those images
+#and creates a collage of those images.
+
+#AUTHOR-Soumyadeep Jana
 
 from tkinter import *
 import requests,bs4,os,time

@@ -1,6 +1,8 @@
-#This script downloads movies from oceanofmovies.ws
+#This script downloads movies from oceanofmovies.ws/
 #This program is only for educational purposes.
 #It downloads movies at 4 AM when the net speed is great in my dorm. 
+
+#AUTHOR-Soumyadeep Jana
 
 from tkinter import *
 from selenium import webdriver
