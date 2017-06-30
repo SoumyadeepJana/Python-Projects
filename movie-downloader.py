@@ -2,7 +2,7 @@ from tkinter import *
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import sys,os,requests,bs4,datetime
-from urllib.request import urlopen
+
 
 class GUI():
 
@@ -31,7 +31,7 @@ class GUI():
 
         while True:
 
-            if (datetime.datetime.now().hour >= 16 and datetime.datetime.now().hour <= 19)  and datetime.datetime.now().minute >= 0:
+            if datetime.datetime.now().hour >= 16 and datetime.datetime.now().minute >= 0:
 
                
 
